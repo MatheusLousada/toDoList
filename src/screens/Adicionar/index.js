@@ -53,6 +53,7 @@ export default function Adicionar() {
           value={novaTarefa}
           onChangeText={text => setNovaTarefa(text)}
           onKeyPress={handleKeyPress}
+          maxLength={30}
         />
         <Button onPress={handleAdicionarTarefa} backgroundColor="#363636">
           <ButtonText>+</ButtonText>
